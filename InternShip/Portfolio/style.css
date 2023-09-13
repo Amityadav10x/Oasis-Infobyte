@@ -1,0 +1,48 @@
+body{
+    
+    background: linear-gradient(178deg, rgba(255,255,255,1) 0%, rgb(52, 132, 52) 50%, rgba(117,134,118,1) 98%, rgba(80,97,82,1) 100%);
+}
+
+body .header{
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+.project img {
+    max-width: 100%;
+}
+.resume-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #d4cccc;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.resume-link:hover {
+    background-color: #9638bf;
+}
+.contact-info {
+    margin-top: 20px;
+
+}
+.contact-info p {
+    margin: 0;
+}
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+.blog-list li {
+    margin-bottom: 10px;
+}
+.blog-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+.blog-list a:hover {
+    text-decoration: underline;
+}
